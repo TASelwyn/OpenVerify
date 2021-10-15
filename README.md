@@ -1,13 +1,13 @@
-# Open Verify App
+# Exposed Verify App
 
-Open source repository for Ontario's official app **(Ontario Verify)** that is used for verifying COVID-19 vaccine certificates.
+Open source repository for Ontario's official app **(Ontario Verify)** that is used for verifying COVID-19 vaccine certificates, that has been modified to expose all QR Code details.
 
 - [Overview](#overview)
 - [Local setup](#local-setup)
 
 ## Overview
 
-This is a React Native app and designed to work well on both Android and iOS devices.
+This is a React Native app and designed to work well on Android.
 
 Open Verify gives businesses and organizations a quick, easy and trusted way to scan and confirm that visitors are fully vaccinated.
 
@@ -47,12 +47,6 @@ cp .env.template .env
 API_URL env variable points to the URL hosting the rules and public keys. Adjust the value accordingly.
 
 #### 5. Launch app (development mode)
-
-##### iOS
-
-```bash
-yarn run-ios
-```
 
 ##### Android
 
